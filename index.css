@@ -131,7 +131,7 @@ input[type="email"]{
 
 }
 
-@media(min-width:700px){
+@media(min-width:701px){
 #wrapper{
     grid-template-columns: 1.5fr 1fr;
 }

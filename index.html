@@ -19,15 +19,15 @@
     <header>
       <img src="design/images/logo.svg" alt="" id="logo">
     </header>
-    <div id="photo"></div>
+    <div id="photo" role="img"></div>
     <div id="text">
 
-      <h1><span>We're</span> coming soon</h1>
+      <h1 role="heading"><span>We're</span> coming soon</h1>
 
-      <p id="desc"> Hello fellow shoppers! We're currently building our new fashion store.
+      <p id="desc" role="contentinfo"> Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
-      <form action="" method="POST" name="emailForm">
+      <form action="" method="POST" name="emailForm" role="form">
         <input type="email" id="email" name=email placeholder="Email Address">
 
         <submit id="submit" for="email" onclick="validateEmail(document.emailForm.email)"></submit>
