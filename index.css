@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Josefin Sans';
-    background:linear-gradient(135deg, hsl(0,0%,100%),hsl(0,100%,98%));
+    background-image: url("design/images/bg-pattern-desktop.svg");
 font-size: 16px;
 margin:0;
 
