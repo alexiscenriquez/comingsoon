@@ -1,4 +1,4 @@
-let button = document.querySelector("button");
+let button = document.querySelector("submit");
 let email = document.querySelector("#email");
 let err = document.querySelector("#error")
 let userEmail = email.value;
