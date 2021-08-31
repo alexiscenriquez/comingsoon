@@ -63,9 +63,9 @@ header{
     background-repeat: no-repeat;
 
     background-position: center;
-    height: 37px;
+    height: 38px;
   
-margin:-55px;
+margin:-50px;
     border:none;
 
    margin-top: 0px;
@@ -79,16 +79,19 @@ padding:15px;
 
 input[type="email"]{
     padding: 10px;
-    
+    color:var(--desatRed);
     border: solid 0.5pt var(--desatRed);
     border-radius: 20px;
     width: 75%;
     padding-right: 40px;
     background-color: transparent;
-   
+    
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
+
 input[type="email"]:focus{
-    -webkit-box-shadow: 0 0 0px 1000px linear-gradient(135deg, hsl(0,0%,100%),hsl(0,100%,98%)) inset !important;
+  
 outline: none;
 }
 form{
@@ -108,7 +111,7 @@ form{
     
 }
 #submit{
-    width:60px;
+    width:50px;
 }
 header{
     margin: 20px;
@@ -121,13 +124,16 @@ background-size: cover;
 background-image: url("design/images/hero-mobile.jpg");
 background-repeat: no-repeat;
 }
+input[type="email"]{
+    background-position-x: 73%;
+   
+}
 
 }
 
 @media(min-width:700px){
 #wrapper{
     grid-template-columns: 1.5fr 1fr;
-
 }
 #photo{
     background-image: url("design/images/hero-desktop.jpg");
@@ -151,7 +157,12 @@ grid-row:1/2;
 h1{
     font-size:50px;
 }
+input[type="email"]{
+    background-position-x: 75%;
+   
+}
 #submit{
-    width: 70px;
+    width: 60px;
+   
 }
 }

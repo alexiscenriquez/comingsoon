@@ -24,7 +24,10 @@ function validateEmail(email)  {
     else {
         err.style.visibility = "visible"
         email.style.border="solid 1pt var(--softRed)"
-
+ 
+    email.style.backgroundImage='url("design/images/icon-error.svg")'
+    email.style.backgroundRepeat="no-repeat"
+    email.style.backgroundPositionY="center"
         return false;
     }
 }
